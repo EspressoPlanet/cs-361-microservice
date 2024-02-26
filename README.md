@@ -14,3 +14,5 @@ The `service.json` file will contain the field "request" which will be set to ei
 If the request is true, it will initiate the `out_service()` method. This method will run a subprocess command to read the SSH config file at /etc/ssh/ssh_config and remove the newline characters. It will then write this to the service.json file in the format:
 
 `{"request":"False", "data":"{SSH CONFIG DATA HERE}"`
+
+![UML diagram](UML.jpg)
